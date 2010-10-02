@@ -19,3 +19,5 @@ map <Leader>n :NERDTreeToggle<CR>
 map <Leader>gu :Git push --all<CR>
 
 au! BufWritePost vimrc,gvimrc source %
+set number
+map <F5>:FuzzyFinderTextMate<CR>
