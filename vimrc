@@ -20,4 +20,4 @@ map <Leader>gu :Git push --all<CR>
 
 au! BufWritePost vimrc,gvimrc source %
 set number
-map <F5>:FuzzyFinderTextMate<CR>
+map <F5> :FuzzyFinderTextMate<CR>
